@@ -119,7 +119,7 @@ export default class TodoList extends Component {
                     <div className="btn-group btn-group-lg">
                         {/*<button type="button" className="btn btn-danger btn-block text-uppercase" onClick={this.clearList}>Clear</button>*/}
                         <button type="button" className="btn btn-danger btn-block text-uppercase" onClick={this.getOnlyArchived}>Archived tasks</button>
-                        <button type="button" className="btn btn-danger btn-block text-uppercase" onClick={this.getOnlyDone}>Done task</button>
+                        <button type="button" className="btn btn-danger btn-block text-uppercase" onClick={this.getOnlyDone}>Done tasks</button>
                     </div>
                 </ul>
             </div>
